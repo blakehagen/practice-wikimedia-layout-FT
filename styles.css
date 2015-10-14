@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	text-decoration: underline;	
+}
+
+a {
+	text-decoration: none;
+}
+
+html, body {
+	margin: 0;
+	width: 100%;
+}
+
+.top-container {
+	width: 68%;
+	margin: 40px auto;
+}
+
+h3 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 22px;
+	line-height: 26px;
+	margin: 0;
+}
+
+.welcome {
+	width: auto;
+	float: right;
+}
+
+span {
+	font-style: normal;
+	font-weight: bolder;
+}
+
+.logo-container {
+	margin: 75px auto;
+	width: 68%;
+	height: auto;
+	border: 1px solid black;
+}
+
+
+
+
+
