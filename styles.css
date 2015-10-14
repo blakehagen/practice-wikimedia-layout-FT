@@ -31,6 +31,13 @@ h3 {
 	margin: 0;
 }
 
+h6 {
+	font-family: "Myriad Set Pro", sans-serif;
+	font-size: 15px;
+	line-height: 16px;
+	margin: 0;
+}
+
 .welcome {
 	width: auto;
 	float: right;
@@ -42,11 +49,67 @@ span {
 }
 
 .logo-container {
-	margin: 75px auto;
-	width: 68%;
+	margin: 75px auto 0;
+	width: 77%;
 	height: auto;
-	border: 1px solid black;
+	text-align: center;
 }
+
+.row {
+	width: 100%;
+	height: 180px;
+	margin-bottom: 30px;
+}
+
+.logo {
+	width: 24%;
+	height: 180px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+img {
+	width: 48%;
+	height: auto;
+}
+
+#line {
+	border-bottom: 1px solid #AAAAAA;
+	margin-bottom: 10px;
+
+}
+
+.bottom {
+	margin: 0px auto;
+	width: 77%;
+	height: auto;
+	/*border: 1px solid green;*/
+	text-align: center;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
