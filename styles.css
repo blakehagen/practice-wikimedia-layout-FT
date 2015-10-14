@@ -2,6 +2,9 @@
 	box-sizing: border-box;
 }
 
+strong {
+	font-weight:bold;}
+
 a:visited {
 	color: blue;
 }
@@ -43,11 +46,6 @@ h6 {
 	float: right;
 }
 
-span {
-	font-style: normal;
-	font-weight: bolder;
-}
-
 .logo-container {
 	margin: 75px auto 0;
 	width: 77%;
@@ -57,13 +55,13 @@ span {
 
 .row {
 	width: 100%;
-	height: 180px;
+	height: auto;
 	margin-bottom: 30px;
 }
 
 .logo {
 	width: 24%;
-	height: 180px;
+	height: auto;
 	display: inline-block;
 	margin: 0 auto;
 }
@@ -75,7 +73,8 @@ img {
 
 #line {
 	border-bottom: 1px solid #AAAAAA;
-	margin-bottom: 10px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 
 }
 
@@ -85,6 +84,24 @@ img {
 	height: auto;
 	/*border: 1px solid green;*/
 	text-align: center;	
+}
+
+@media (max-width: 1200px){
+	.row {
+		margin-bottom: 60px;
+	}
+	img {
+		width: 60%;
+	}
+}
+
+@media (max-width: 800px){
+	.row {
+		margin-bottom: 30px;
+	}
+	img {
+		width: 80%;
+	}
 }
 
 
